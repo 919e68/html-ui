@@ -1,0 +1,99 @@
+@import '../common/fonts/colab-med/style.css';
+@import '../common/fonts/futura/style.css';
+@import '../common/icons/font-awesome/css/font-awesome.min.css';
+@import '../common/ui/colors.css';
+@import '../common/ui/box.css';
+
+
+body {
+	background: #ecf0f5;
+	font-family: 'GothamPro';
+}
+.container {
+	padding: 25px;
+}
+
+/* start here */
+.widget {
+  position: relative;
+  border-radius: 2px;
+  background: #ffffff;
+  margin-bottom: 20px;
+  width: 100%;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+.widget > .header {
+  padding: 20px;
+  height: 120px;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+}
+.widget.list > .header {
+	height: auto;
+}
+.widget.list > .header > .image {
+
+}
+.widget.list > .header > .image > img {
+	width: 64px;
+  height: auto;
+  float: left;
+}
+
+.widget > .header > .title {
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-size: 25px;
+  font-weight: 300;
+}
+.widget > .header > .description {
+	
+}
+
+.widget.list > .header > .title {
+	margin-left: 75px;
+	margin-top: 5px;
+}
+.widget.list > .header > .description {
+	margin-left: 75px;
+}
+
+.widget > .image {
+	position: absolute;
+  top: 65px;
+  left: 50%;
+  margin-left: -45px;
+}
+.widget > .image > img {
+	width: 90px;
+  height: auto;
+  border: 3px solid #fff;
+}
+
+.widget > .footer {
+	padding: 30px 5px 15px 5px;
+	border-top: 1px solid #f4f4f4;
+}
+.widget > .footer .border-right {
+  border-right: 1px solid #f4f4f4;
+}
+.widget > .footer .description-block {
+	display: block;
+  margin: 10px 0;
+  text-align: center;
+}
+.widget > .footer .description-block > .header {
+	margin: 0;
+  padding: 0;
+  font-weight: 600;
+  font-size: 16px;
+}
+.widget > .footer .description-block > .text {
+	display: block;
+	text-align: center;
+	text-transform: uppercase;
+}
+.widget > .footer a {
+	color: #444;
+}

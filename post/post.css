@@ -1,0 +1,92 @@
+@import '../common/fonts/futura/style.css';
+@import '../common/icons/font-awesome/css/font-awesome.min.css';
+@import '../common/ui/box.css';
+@import '../common/ui/user.css';
+
+body {
+	font-family: 'Colaborate Medium';
+	background: #ecf0f5;
+}
+.container {
+	padding: 25px;
+}
+
+/* start here*/
+
+
+.post-content {
+  padding: 15px;
+  font-size: 14px;
+}
+
+.post-content > p {
+  text-align: justify;
+}
+.post-content > .attachment-block {
+  border: 1px solid #f4f4f4;
+  padding: 5px;
+  margin-bottom: 10px;
+  background: #f7f7f7;
+}
+.post-content > .attachment-block > .attachment-img {
+  max-width: 100px;
+  max-height: 100px;
+  height: auto;
+  float: left;
+}
+.post-content > .attachment-block > .attachment-pushed {
+  margin-left: 110px;
+}
+.post-content > .attachment-block > .attachment-pushed > .attachment-heading {
+  margin: 0px 0px 5px 0px;
+  font-size: 16px;
+}
+.post-content > .attachment-block > .attachment-pushed > .attachment-text {
+  font-size: 12px;
+  color: #555;
+}
+
+.comments {
+  background: #f7f7f7;
+  padding: 0px 15px;
+}
+.comments > .comment {
+  border-bottom: 1px solid #eee;
+  padding: 15px 0px;
+}
+.comments > .comment:last-child {
+  border-bottom: none;
+}
+.comments > .comment > img {
+  float: left;
+}
+.comments > .comment > .comment-text {
+  margin-left: 40px;
+}
+.comments > .comment > .comment-text > .username {
+  display: block;
+  font-weight: 600;
+}
+.comments > .comment > .comment-text > .username > .timestamp {
+  font-size: 11px;
+   font-weight: 400;
+}
+.comments > .comment > .comment-text > p {
+  margin: 0px;
+  text-align: justify;
+}
+.post-reply {
+  padding: 10px;
+}
+.post-reply > img {
+  margin-top: 3px;
+  float: left;
+}
+.post-reply > .img-push {
+  margin-left: 32px;
+}
+.post-reply input {
+  border: none;
+  font-size: 12px;
+}
+

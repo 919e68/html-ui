@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Chatbox</title>
+  <link rel="stylesheet" type="text/css" href="../common/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../common/bootstrap-overide.css">
+  <script type="text/javascript" src="../common/jquery/jquery.min.js"></script>
+  <script type="text/javascript" src="../common/bootstrap/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="chat.css">
+  
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+
+
+        <div class="box success">
+          <div class="header with-border">
+            <h3 class="title">Direct Chat</h3>
+
+            <div class="tools pull-right">
+              <span data-toggle="tooltip" title="3 New Messages" class="badge bg-green">3</span>
+
+              <button type="button" class="btn btn-tool" data-widget="collapse">
+                <i class="fa fa-minus"></i>
+              </button>
+
+              <button type="button" class="btn btn-tool" data-toggle="tooltip" title="" data-widget="chat-pane-toggle" data-original-title="Contacts">
+                <i class="fa fa-comments"></i>
+              </button>
+
+              <button type="button" class="btn btn-tool" data-widget="remove">
+                <i class="fa fa-times"></i>
+              </button>
+            </div>
+          </div>
+     
+
+          <div class="body">
+
+            <div class="chat-msgs">
+
+              <div class="chat-msg">
+                <div class="chat-info clearfix">
+                  <span class="chat-name pull-left">Alexander Pierce</span>
+                  <span class="chat-timestamp pull-right">23 Jan 2:00 pm</span>
+                </div>
+          
+                <img class="chat-img" src="../common/dummy/img/1.png" alt="Message User Image">
+                <div class="chat-text">
+                  Is this template really for free? That's unbelievable!
+                </div>
+                <div class="chat-text pointer-none">
+                  Is this template really for free? That's unbelievable!
+                </div>
+                <div class="chat-text pointer-none">
+                  Is this template really for free? That's unbelievable!
+                </div>
+              </div>
+
+              
+              <div class="chat-msg right">
+                <div class="chat-info clearfix">
+                  <span class="chat-name pull-right">Sarah Bullock</span>
+                  <span class="chat-timestamp pull-left">23 Jan 2:05 pm</span>
+                </div>
+    
+                <img class="chat-img" src="../common/dummy/img/2.png" alt="Message User Image">
+                <div class="chat-text short">
+                  You better believe it!
+                </div>
+                <div class="chat-text short pointer-none">
+                  You better believe it!
+                </div>
+                <div class="chat-text short pointer-none">
+                  You better believe it!
+                </div>
+                <div class="chat-text short pointer-none">
+                  You better believe it!
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="footer">
+            <form action="#" method="post" class="chat-reply">
+              <div class="input-group">
+                <input type="text" name="message" placeholder="Type Message ..." class="form-control">
+                  <span class="input-group-btn">
+                    <button type="submit" class="btn btn-success btn-flat">Send</button>
+                  </span>
+              </div>
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

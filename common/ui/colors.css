@@ -1,0 +1,31 @@
+.bg-blue {
+	background: #3498db !important;
+}
+.bg-aqua {
+	background: #00c0ef !important;
+}
+.bg-purple {
+  background-color: #605ca8 !important;
+}
+.bg-maroon {
+  background-color: #d81b60 !important;
+}
+.bg-green {
+	background: #27ae60 !important;
+}
+.bg-yellow {
+	background: #e67e22 !important;
+}
+.bg-red {
+	background: #c0392b !important;
+}
+
+.bg-blue,
+.bg-aqua,
+.bg-purple,
+.bg-maroon,
+.bg-green,
+.bg-yellow,
+.bg-red {
+	color: #fff !important;
+}

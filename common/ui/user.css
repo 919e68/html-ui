@@ -1,0 +1,20 @@
+.user-block {
+
+}
+.user-block > img {
+	width: 48px;
+  height: 48px;
+  float: left;
+}
+.user-block > .username {
+	font-size: 22px;
+	display: block;
+  margin-left: 58px;
+}
+.user-block > .email,
+.user-block > .description {
+  color: #999;
+  font-size: 12px;
+  display: block;
+  margin-left: 58px;
+}
